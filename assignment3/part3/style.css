@@ -46,6 +46,10 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  /* Solution: Display the navigation items in a row with equal space
+  in between and less space at the ends  */
+  display: flex;
+  justify-content: space-around;
 }
 
 nav a {
